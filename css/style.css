@@ -91,6 +91,8 @@
     border: 2px solid black;
     background-color: bisque;
     width: 90%;
+    display: flex;
+    flex-direction: row;
 }
 
 .clear{
@@ -166,5 +168,15 @@
     flex-direction: column;
     justify-content: center;
     color: red;
+}
+    .result-divs{
+    height: auto;
+    width: 85%;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: bisque;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
 }
 }
